@@ -63,15 +63,17 @@ body {
 <img src="http://www.coffeebeans.ie/stg/userupload/site2030/where_coffee_is_grown.jpg">
 
 <div class="subscribe">
-<p> Want to recieve our monthly newletter on the global coffee trade? Subcribe here! </p>
+<p> Want to recieve our monthly newletter on the global coffee trade? </p>
+<button> Subscribe here! </buttton>
 </div>
 
 </body>
 
 <script type="text/javascript">
-	
-	var subscriber = prompt("What is your email address?");
-alert("Thank you for joing the mailing list")
+	$('button').on("click", function(){
+		var subscriber = prompt("What is your email address?");
+		alert("Thank you for joing the mailing list");
+}
 </script>
 
 </html>
